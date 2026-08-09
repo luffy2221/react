@@ -3,9 +3,9 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
-}
+  color: #000;
 
+}
 html,
 body,
 #root {
@@ -13,21 +13,44 @@ body,
   width: 100%;
   background-color: #000;
 }
-.btn{
+
+.parent {
+  height:100vh;
+  width:100%;
+  padding: 30px;
+}
+
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top img{
+  height: 30px;
+}
+
+
+
+
+/* cards components */
+
+/* .btn{
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
   background-color: #fff;
   color: #000;
   cursor: pointer;
-}
-.parent {
-  display: flex;
-  padding: 20px;
-  flex-wrap: wrap;
-  
-}
-.card p{
+} */ 
+/* .card p{
   margin: 20px 0;
 }
 .card img{
@@ -46,4 +69,4 @@ body,
   background-color: #333;
   margin-left: 20px;
 
-}
+} */
