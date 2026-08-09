@@ -1,11 +1,32 @@
 import React from 'react'
-import Card from './components/Card'
+import { Bookmark } from 'lucide-react'
 
 const App = () => {
   return (
     <div className="parent">
-    <Card user = 'Hanish' age={21}/>
-    <Card user = 'Aman' age={22}/>
+      <div className="card">
+        <div className="top">
+        <img src="https://companieslogo.com/img/orig/AMZN-e9f942e4.png?t=1740113564" alt="" />
+
+        <button>save  <Bookmark /></button>
+        </div>
+        <div className="center">
+          <h3>Amazon <span>5 days ago </span></h3>
+          <h2>Senior UI/UX Designer</h2>
+          <div>
+            <h4>Part Time</h4>
+            <h4>Senior Level</h4>
+          </div>
+
+        </div>
+        <div className="bottom">
+            <div>
+              <h3>$120/hr</h3>
+              <p>Mumbai,India</p>
+          </div>
+            <button>Apply</button>
+        </div>
+      </div>
     </div>
   )
 }
