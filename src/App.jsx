@@ -1,124 +1,34 @@
-import React from "react";
-import Cardnew from './components/Cardnew'
+import React from 'react'
+
+import Section1 from './components/Section1/Section1.jsx'
+import Section2 from './components/Section2/Section2.jsx'
 
 const App = () => {
 
-console.log("2:58");
 
-  const jobs = [
-  {
-    companyLogo: "https://logo.clearbit.com/google.com",
-    companyName: "Google",
-    datePosted: "5 days ago",
-    post: "Frontend Developer",
-    tag1: "Full Time",
-    tag2: "Junior Level",
-    pay: "$35/hour",
-    location: "Mountain View, CA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/microsoft.com",
-    companyName: "Microsoft",
-    datePosted: "1 week ago",
-    post: "React Developer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    pay: "$48/hour",
-    location: "Seattle, WA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/amazon.com",
-    companyName: "Amazon",
-    datePosted: "3 days ago",
-    post: "UI/UX Designer",
-    tag1: "Part Time",
-    tag2: "Junior Level",
-    pay: "$30/hour",
-    location: "New York, NY"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/meta.com",
-    companyName: "Meta",
-    datePosted: "2 weeks ago",
-    post: "Software Engineer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    pay: "$55/hour",
-    location: "Menlo Park, CA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/netflix.com",
-    companyName: "Netflix",
-    datePosted: "10 days ago",
-    post: "Product Designer",
-    tag1: "Full Time",
-    tag2: "Mid Level",
-    pay: "$42/hour",
-    location: "Los Angeles, CA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/spotify.com",
-    companyName: "Spotify",
-    datePosted: "4 weeks ago",
-    post: "Frontend Engineer",
-    tag1: "Part Time",
-    tag2: "Senior Level",
-    pay: "$45/hour",
-    location: "New York, NY"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/adobe.com",
-    companyName: "Adobe",
-    datePosted: "6 days ago",
-    post: "Graphic Designer",
-    tag1: "Full Time",
-    tag2: "Junior Level",
-    pay: "$28/hour",
-    location: "San Jose, CA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/ibm.com",
-    companyName: "IBM",
-    datePosted: "8 weeks ago",
-    post: "Backend Developer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    pay: "$50/hour",
-    location: "Austin, TX"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/airbnb.com",
-    companyName: "Airbnb",
-    datePosted: "2 weeks ago",
-    post: "UX Researcher",
-    tag1: "Part Time",
-    tag2: "Mid Level",
-    pay: "$38/hour",
-    location: "San Francisco, CA"
-  },
-  {
-    companyLogo: "https://logo.clearbit.com/shopify.com",
-    companyName: "Shopify",
-    datePosted: "10 weeks ago",
-    post: "Full Stack Developer",
-    tag1: "Full Time",
-    tag2: "Senior Level",
-    pay: "$52/hour",
-    location: "Remote"
-  }
-];
-
-
-
-
-
+  const users = [
+    {
+      img: 'https://plus.unsplash.com/premium_photo-1658506656752-4f1b1c1d5916?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      intro: 'lorem bbsf skjfbf kjsdfdhf hanish jdsb sdabsdu uawehssdh',
+      tag:''
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1752170080622-18196de87763?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtpbmclMjBwcm9mZXNzaW9uYWx8ZW58MHx8MHx8fDA%3D',
+      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus.',
+      tag:'Underserved'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1587614298171-a223667e51c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya2luZyUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D',
+      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus. jabfjkfb sjdfgdhsg ',
+      tag:'UnderBanked'
+    }
+  ]
   return (
-    <div className="parent">
-      {jobs.map(function(elem){
-          return <Cardnew logo={elem.companyLogo} name = {elem.companyName} datePosted={elem.datePosted} post = {elem.post} tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay} location={elem.location}   />
-      })}
+    <div>
+      <Section1 users = {users}/>
+      <Section2 />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
