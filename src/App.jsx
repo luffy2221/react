@@ -10,18 +10,39 @@ const App = () => {
     {
       img: 'https://plus.unsplash.com/premium_photo-1658506656752-4f1b1c1d5916?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       intro: 'lorem bbsf skjfbf kjsdfdhf hanish jdsb sdabsdu uawehssdh',
-      tag:''
+      color:'red',
+      tag:'hello'
     },
     {
       img: 'https://images.unsplash.com/photo-1752170080622-18196de87763?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtpbmclMjBwcm9mZXNzaW9uYWx8ZW58MHx8MHx8fDA%3D',
       intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus.',
+      color:'blue',
       tag:'Underserved'
     },
     {
       img: 'https://images.unsplash.com/photo-1587614298171-a223667e51c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya2luZyUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D',
       intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus. jabfjkfb sjdfgdhsg ',
+      color:'Green',
       tag:'UnderBanked'
-    }
+    },
+    {
+      img: 'https://plus.unsplash.com/premium_photo-1658506656752-4f1b1c1d5916?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      intro: 'lorem bbsf skjfbf kjsdfdhf hanish jdsb sdabsdu uawehssdh',
+      color:'yellow',
+      tag:'hello'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1587614298171-a223667e51c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya2luZyUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D',
+      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus. jabfjkfb sjdfgdhsg ',
+      color:'orange',
+      tag:'UnderBanked'
+    },
+    {
+      img: 'https://images.unsplash.com/photo-1587614298171-a223667e51c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya2luZyUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D',
+      intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus. jabfjkfb sjdfgdhsg ',
+      color:'pink',
+      tag:'UnderBanked'
+    },
   ]
   return (
     <div>
